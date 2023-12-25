@@ -5,6 +5,9 @@
 # Local .terraform directories
 **/.terraform/*
 
+# Lock state file
+.terraform.lock.hcl
+
 # Crash log files
 crash.log
 crash.*.log
