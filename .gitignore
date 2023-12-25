@@ -1,0 +1,30 @@
+*.pub
+*.pem
+*.pem
+
+# Local .terraform directories
+**/.terraform/*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Environment dependant and can contain sensitive data
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+
